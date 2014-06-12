@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo -e "Setting the local date and time for the server:\n"; sleep 3;
-ln -sf /usr/share/zoneinfo/America/Chicago /etc/localtime
+ln -sf /usr/share/zoneinfo/America/Chicago /etc/localtime; ; echo -e "`date`\n"; sleep 3
 echo -e "Done\n"; sleep 3;
 
 echo -e "Installing all the packages\n" && sleep 3;
